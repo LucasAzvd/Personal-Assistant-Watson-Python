@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "tallud-assistant",
+  "private_key_id": "4c88f811eb7f79f56e820640b5d4a3279c3dbae2",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQDBYp/bAEID63i6\nGssmIPqp1G7ze3GUyZR8vFP9baP58EJiixRMO5dq/xjL4ePPodhxEILYLGkDLVzb\nctbbza1OV2fyPpA3eyEHtDlifjYZChePeELoQ3xXyDKQc8oj5J34GARrOsiZPx0z\nmTQxs1nGg1mHwffLJJ+A7eyG9+hZ7HPZkstZugEgpRLcbyLxTsClIXFO9GWENqWC\nrkuLvZaVf2au9PPaZQzgiuzjxM0aijchHRIFvKM5wye/t+sGOsCBht3aP+UQO6D6\n4FDmpVHo779JsTZqQ4+AHecKJ1R74UyaALUkbAf7YvqeYK7KbAzCoR3ehQwDwTmD\nAzWCHdVvAgMBAAECggEAFpItczuz+M4me0jo9hck+pEgrrV1O8xNUu5jj9xDURw8\nO1EypMp9xqS7NFdgpgQksDRLo/HcWIfBDfH45uhky78tkttqLLeSfYTeVRhttagf\nuNnsq+bt3+GuGShn6vQ3hdSTy3TYeJ53s4/e74AYldq7Jo+6nWYLDIV4iluWrcv/\nBT97q8CKZCqF9jGVy5DIzP3dwTQgvp56IKVu0vvDlSdz4ax+ZxqG64uZuY/KY/b3\n9H+o4VTqPeNBdivFOS4FN5/xTfokICK1F84HUltLhbWGCmEr3P5+OdIN4Z7ATTAV\nlbTCAlGzfWFgNQ7pkySLO/u+Ua58Hj8urGgeXJamQQKBgQDxd5yGZY87NnGfsNsz\nsKy3M7TYm0GbbLsLA6ZXqxscqcz4nKEfi+Igz+pDFW0qZ59L0k4v+6CsZbPHgFPO\nnzNPSXGxwhjCzb/3ya8OAR0+YThBhtNZK+oHQk27z+nrehCtxS4Ly3ZsqZbNDNqq\ngB4rdfPfWDID9Y951swPAzv8LwKBgQDNBjGFY1FAJhD/BkPxCySxlMQeEBQo63W1\n5BcgK1Ccr2o3dZA4Hu8RDjTBIKlDzckolSz7QIpG3gzdh+QcmAGn4jolL5q45OVu\n+YU6P8Gtocw3VOgyl4BXfxUgvDDF7qRJ9tqJNGwguBLjAS85mMx5y07fN39sApfi\nNsdWQ4sqwQKBgQCn45F6RJzs/7LK5I3Uh8/e5V2liXV5WoVGaDg9FmQYbttsNIM2\nyuzkAYwRLpGjfT7d2hCw/hS+KUxxtwEOVdS4GQmrHZhXwfTqlVlYtF+f4rrZnKPQ\niV8Dww8HOc2cA1gbalDUtJfXf6axVXGoQMI5V57DuK+13wPuI/Hnskj/0wKBgQCw\n8Apm0nq5gOCkJtUVvocxVnEWfMvZMLPKgQlQMvGD94MUT7piJJgvQPJYRgauRHe5\nNVy3jVCIrnOt7+v2nVy4dW22z+mYbbpv1pma1pEgdwUWL4mgt80ENeGW+bKh7z0L\ntCWPyZUTe6iZDlmiPHMjHUl5LJ0kKuzHRn0rvmjpQQKBgEbGEUO8SM16KMevnyMW\nUxRDZb4s8x3u31IXT/8Bf2Qbwp09FJ5Jb9AGXI8Aeu6mK5Yx0Mqqm+3gQUi/YsbM\ncSjVc+3IaaNO7AzDQi/KNvSoxBs5mJg+k+kO3Qv1OvtbzAB7sGtTKydlmEDsnwpA\nCcYU4uDipaYiBYSAKDkf48oa\n-----END PRIVATE KEY-----\n",
+  "client_email": "tallud@tallud-assistant.iam.gserviceaccount.com",
+  "client_id": "104803242759449416929",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/tallud%40tallud-assistant.iam.gserviceaccount.com"
+}
