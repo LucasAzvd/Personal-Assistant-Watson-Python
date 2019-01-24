@@ -6,10 +6,10 @@ from bs4 import BeautifulSoup
 from gtts import gTTS
 import webbrowser as browser
 
-
+#3a5e2c93c0896fa3fa8dfec3fd8c9e5d
 ### CONFIGS ###
 hotword = 'clara'   #Bot name
-with open('YOUR GOOGLE CREDENCIALS API.json') as credenciais_google:
+with open('YOUR GOOGLE API CREDENCIAL.json') as credenciais_google:
     credenciais_google = credenciais_google.read()
 
 ###FUNÇÕES SUBSTITUTAS###
@@ -17,16 +17,16 @@ def monitora_audio():
     while True:
         microfone = sr.Recognizer()
         with sr.Microphone() as source:    
-            print("Esperando o comando...") #Wait a command
+            print("\nEsperando o comando...") #Wait a command
             audio = microfone.listen(source)
             try:    #Try catch the message
                 trigger = microfone.recognize_google(audio, language='pt-br')
                 trigger = trigger.lower()
-                print(trigger)
-                if hotword in trigger:  
-                    print('Comando: ' + trigger.strip(hotword))
-                    responde('feedback')
-                    executa_comandos(trigger)
+                #print(trigger)
+                #if hotword in trigger:  
+                print('Comando: ' + trigger.strip(hotword))
+                responde('feedback')
+                executa_comandos(trigger)
             except sr.UnknownValueError:    #No understand
                 print("-> Não entendi o que você falou")
                 pass
@@ -47,6 +47,9 @@ def executa_comandos(trigger): #Execute commands
 
     elif 'toca' in trigger and 'reggae' in trigger:
         playlist('reggae')
+    
+    elif 'tempo' in trigger:
+        previsao_tempo()
 
     else:
         responde('nao_entendi')
@@ -56,8 +59,8 @@ def executa_comandos(trigger): #Execute commands
 #Create audios to proram execute
 def cria_audio(mensagem):
     tts = gTTS (mensagem, lang='pt-br')
-    tts.save  ('audios/mensagem.mp3')
-    print ('Clara:\n' +mensagem)
+    tts.save('audios/mensagem.mp3')
+    print ('Clara:\n    ' +mensagem)
     playsound ('audios/mensagem.mp3')   #windows
 
 def ultimas_noticias(): #The last br news
@@ -74,7 +77,17 @@ def playlist(playlist):
         browser.open('https://open.spotify.com/track/7JQet6yCd8rZX3oeVGqAyx')
     elif playlist == 'reggae':
         browser.open('https://open.spotify.com/track/6IISVH5YBVy9ZohIlSaHm8')
-    
+
+def previsao_tempo():
+    site = get('http://api.openweathermap.org/data/2.5/weather?q=YOUR CITY,br&APPID=YOUR API KEY&units=metric&lang=pt')
+    clima = site.json()
+    temperatura=clima['main']['temp']
+    minima=clima['main']['temp_min']
+    maxima=clima['main']['temp_max']
+    descricao=clima['weather'][0]['description']
+    mensagem = ("A temperatura aonde tu tais é " + str(temperatura) + " Graus. A máxima é: " + str(maxima) +
+                " Graus . A mínima é: " + str(minima) + " Graus. E tá com: " + str(descricao))
+    cria_audio(mensagem)
 
 #Execute Program
 def main():
