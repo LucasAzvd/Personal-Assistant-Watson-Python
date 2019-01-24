@@ -6,7 +6,7 @@ from bs4 import BeautifulSoup
 from gtts import gTTS
 import webbrowser as browser
 
-#3a5e2c93c0896fa3fa8dfec3fd8c9e5d
+
 ### CONFIGS ###
 hotword = 'clara'   #Bot name
 with open('YOUR GOOGLE API CREDENCIAL.json') as credenciais_google:
