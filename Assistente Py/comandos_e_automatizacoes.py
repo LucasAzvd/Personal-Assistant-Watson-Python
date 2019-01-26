@@ -3,7 +3,7 @@ from bs4 import BeautifulSoup
 from toca_musica import Playlist
 from respostas import Resposta
 
-#3a5e2c93c0896f--a3fa8dfec3fd8c9e5d
+
 gera_resposta = Resposta('loading')
 
 class Comandos():
