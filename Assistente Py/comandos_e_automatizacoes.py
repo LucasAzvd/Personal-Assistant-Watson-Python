@@ -3,7 +3,7 @@ from bs4 import BeautifulSoup
 from toca_musica import Playlist
 from respostas import Resposta
 
-
+#3a5e2c93c0896f--a3fa8dfec3fd8c9e5d
 gera_resposta = Resposta('loading')
 
 class Comandos():
@@ -42,7 +42,7 @@ class Automatizacoes():
         gera_resposta.cria_audio(mensagem)
 
     def previsao_tempo(self):
-        site = get('http://api.openweathermap.org/data/2.5/weather?q=Belo%20Horizonte,br&APPID=3a5e2c93c0896fa3fa8dfec3fd8c9e5d&units=metric&lang=pt')
+        site = get('http://api.openweathermap.org/data/2.5/weather?q=Belo%20Horizonte,br&APPID=API ID &units=metric&lang=pt')
         clima = site.json()
         temperatura=clima['main']['temp']
         minima=clima['main']['temp_min']
