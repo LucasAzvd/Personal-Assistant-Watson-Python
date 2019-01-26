@@ -9,7 +9,7 @@ from respostas import Resposta
 
 ### CONFIGS ###
 hotword = 'talu'   #Bot name
-with open('Tallud-Assistant-4c88f811eb7f.json') as credenciais_google:
+with open('YOUR GOOGLE ID.json') as credenciais_google:
     credenciais_google = credenciais_google.read()
 
 
