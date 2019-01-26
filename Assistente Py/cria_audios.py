@@ -11,4 +11,4 @@ def cria_audio(audio):
     #call(['aplay' , 'audios/hello.mp3'])    #Linux
     playsound ('audios/feedback.mp3')         #windows
 
-cria_audio('Pera  aê')
+cria_audio(' Pera aê. visse')
