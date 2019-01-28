@@ -1,0 +1,6 @@
+pip install pyaudio
+pip install SpeechRecognition
+pip install requests
+pip install beautifulsoup4
+pip install gTTS
+pip install playsound
