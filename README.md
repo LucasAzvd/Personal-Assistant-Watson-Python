@@ -1,7 +1,8 @@
 # Assistant-Python
-Create a assistant with Python, using Google speech API's
+Create a assistant with Python, using Google speech API's and Connecting to Watson Assistant
 
 #### This code was developed to create your own virtual assistant, currently it reads the latest news (Brazilian) google news, play music in Spotify, speaks the weather temperature in your city.
+### Watson Assistant Connect!!!!!!!!!
 #### Other features: creating audio previews to generate conversation.
 
 1. Create your default audios in the 'create_audio.py' and add them to the 'audio' folder (if they are not added directly)
