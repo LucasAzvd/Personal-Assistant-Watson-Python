@@ -7,8 +7,7 @@ from respostas import Resposta
 from watson_developer_cloud import AssistantV2
 
 
-#3a5e2c93c0896fa3fa8dfec3fd8c9e5d
-
+#
 ### CONFIGS ###
 hotword = 'talu'   #Bot name
 with open('{YOUR_GOOGLE_API}') as credenciais_google:
