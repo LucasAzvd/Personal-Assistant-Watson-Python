@@ -16,6 +16,7 @@ class Resposta():
             print ('Tallud:\n    ' +mensagem)
             playsound ('audios/mensagem.mp3')   #windows
             os.remove('audios/mensagem.mp3')
+            
         #Permission in Windows 10 is denied
         except PermissionError:
             numero = random.randint(0,1000000000000)
